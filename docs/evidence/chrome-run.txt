@@ -1,0 +1,194 @@
+C:\Users\rites\Downloads\Selneium Multibank Project>mvn clean test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------------< com.qa:multibank-automation >---------------------
+[INFO] Building multibank-automation 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 24418 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] Loaded 64 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO]
+[INFO] --- clean:3.5.0:clean (default-clean) @ multibank-automation ---
+[INFO] Deleting C:\Users\rites\Downloads\Selneium Multibank Project\target
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ multibank-automation ---
+[INFO] skip non existing resourceDirectory C:\Users\rites\Downloads\Selneium Multibank Project\src\main\resources
+[INFO]
+[INFO] --- compiler:3.16.0:compile (default-compile) @ multibank-automation ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ multibank-automation ---
+[INFO] skip non existing resourceDirectory C:\Users\rites\Downloads\Selneium Multibank Project\src\test\resources
+[INFO]
+[INFO] --- compiler:3.16.0:testCompile (default-testCompile) @ multibank-automation ---
+[WARNING] I/O error reading dependency state: C:\Users\rites\Downloads\Selneium Multibank Project\target\classes: C:\Users\rites\Downloads\Selneium Multibank Project\target\classes
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug target 17] to target\test-classes
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ multibank-automation ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 09, 2026 8:29:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Clicked Explore -> https://mb.io/en-AE/explore
+Clicked Features -> https://mb.io/en-AE/features
+Clicked OTC Desk -> https://mb.io/en-AE/features/otc-desk
+Clicked Company -> https://mb.io/en-AE/company
+Clicked Support -> https://mb.io/en-AE/support
+Clicked Blog -> https://mb.io/en-AE/blog
+Nov 09, 2026 8:29:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Nov 09, 2026 8:29:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Nav OK at 1920x1080
+Nav OK at 1366x768
+Nav OK at 1280x800
+Nov 09, 2026 8:29:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Nav item visible: Explore
+Nav item visible: Features
+Nav item visible: OTC Desk
+Nav item visible: Company
+Nav item visible: Support
+Nav item visible: Blog
+Nav item visible: $MBG
+Nov 09, 2026 8:29:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Top Gainers has 5 coins
+Trending Now has 5 coins
+Top Losers has 5 coins
+Nov 09, 2026 8:29:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:29:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Hot tab rows: 13
+Gainers tab rows: 15
+Losers tab rows: 15
+Nov 09, 2026 8:30:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Number of coins in spot market: 13
+Nov 09, 2026 8:30:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+MBG | MultiBank Group | $0.10 | 10.53%
+BTC | Bitcoin | $74,807.02 | 1.26%
+ETH | Ethereum | $2,126.72 | 4.65%
+XRP | XRP | $1.10 | 4.72%
+SOL | Solana | $86.67 | 2.72%
+DOGE | Dogecoin | $0.07 | 1.69%
+UNI | Uniswap | $6.88 | 1.47%
+AVAX | Avalanche | $8.80 | 7.41%
+TRX | TRON | $0.32 | 0.73%
+LINK | Chainlink | $10.66 | 0.04%
+AAVE | Aave | $132.12 | 2.55%
+ADA | Cardano | $0.18 | 0.00%
+Table is refreshing, trying again... td[id='-12_displayName-td'] span:nth-of-type(1)
+Table is refreshing, trying again... td[id='-12_displayName-td'] span:nth-of-type(1)
+Table is refreshing, trying again... td[id='-12_displayName-td'] span:nth-of-type(1)
+LTC | Litecoin | $51.71 | 0.40%
+Nov 09, 2026 8:30:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Download link: https://mbio.go.link/6OW91
+iPhone redirect: https://apps.apple.com/app/id1592119946?mt=8
+Nov 09, 2026 8:30:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Nov 09, 2026 8:30:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Android redirect: intent://?adj_t=1wbharr9&adj_campaign=MBIO_Download_App&adj_adgroup=referral&adjust_reftag=cwLj1AAdEA0vB#Intent;scheme=mbio;package=com.multibank.app;S.market_referrer=adjust_reftag%3DcwLj1AAdEA0vB;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.multibank.app%26referrer%3Dadjust_reftag%253DcwLj1AAdEA0vB;end
+Nov 09, 2026 8:30:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Nov 09, 2026 8:30:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Heading y = 111, banner y = 295
+Nov 09, 2026 8:30:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Section headings: [For nearly two decades, MultiBank has built a reputation as one of the world?s most trusted financial institutions. With a foundation rooted in regulation, transparency, and technological excellence, we continue to serve millions of clients across the globe with integrity and ambition., A tradition of global leadership, Innovation with purpose, Integrity built into every decision]
+Nov 09, 2026 8:30:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:30:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Status code for invalid page: 404
+After back to homepage: https://mb.io/en-AE
+Nov 09, 2026 8:31:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:31:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+Mobile menu: [Explore, Features, OTC Desk, Company, Support, Blog, $MBG]
+Nov 09, 2026 8:31:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Nov 09, 2026 8:31:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Running on: chrome
+https://mb.io/ -> 308
+https://mb.io/en-AE/explore -> 200
+https://mb.io/en-AE/features -> 200
+https://mb.io/en-AE/features/otc-desk -> 200
+https://mb.io/en-AE/company -> 200
+https://mb.io/en-AE/support -> 200
+https://mb.io/en-AE/blog -> 200
+https://token.multibankgroup.com/en -> 200
+https://trade.mb.io/login -> 200
+https://trade.mb.io/register -> 200
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 128.2 s -- in TestSuite
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:12 min
+[INFO] Finished at: 2026-11-09T20:31:20+04:00
+[INFO] ------------------------------------------------------------------------

@@ -114,3 +114,9 @@ Runs on 9 Nov 2026 against https://mb.io/en-AE (full logs and TestNG reports in 
 |---|---|---|---|---|---|
 | Microsoft Edge | 156.0.4314.58 | 17 | 17 | 0 | 2m 06s |
 | Google Chrome  | 156.0.8078.79 | 17 | 17 | 0 | 2m 12s |
+
+## Task 2 – QA strategy documents
+- [QA strategy answers](docs/TASK2-QA-STRATEGY.md)
+- [Test plan](docs/TEST-PLAN.md)
+- [Release readiness checklist](docs/RELEASE-READINESS-CHECKLIST.md)
+- [Risk matrix](docs/RISK-MATRIX.md)
